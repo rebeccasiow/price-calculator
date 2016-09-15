@@ -14,6 +14,7 @@
 		B24255711D8644FB002ADEB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B242556F1D8644FB002ADEB5 /* LaunchScreen.storyboard */; };
 		B242557C1D8644FC002ADEB5 /* RebeccaSiow_Lab1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B242557B1D8644FC002ADEB5 /* RebeccaSiow_Lab1Tests.swift */; };
 		B24255871D8644FC002ADEB5 /* RebeccaSiow_Lab1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24255861D8644FC002ADEB5 /* RebeccaSiow_Lab1UITests.swift */; };
+		B24255951D87C427002ADEB5 /* DigitsOnlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24255941D87C427002ADEB5 /* DigitsOnlyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B24255821D8644FC002ADEB5 /* RebeccaSiow-Lab1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RebeccaSiow-Lab1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24255861D8644FC002ADEB5 /* RebeccaSiow_Lab1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebeccaSiow_Lab1UITests.swift; sourceTree = "<group>"; };
 		B24255881D8644FC002ADEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24255941D87C427002ADEB5 /* DigitsOnlyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitsOnlyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				B24255661D8644FB002ADEB5 /* AppDelegate.swift */,
 				B24255681D8644FB002ADEB5 /* ViewController.swift */,
+				B24255941D87C427002ADEB5 /* DigitsOnlyViewController.swift */,
 				B242556A1D8644FB002ADEB5 /* Main.storyboard */,
 				B242556D1D8644FB002ADEB5 /* Assets.xcassets */,
 				B242556F1D8644FB002ADEB5 /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					B24255621D8644FB002ADEB5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YCDC69KK4X;
 					};
 					B24255761D8644FC002ADEB5 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -256,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B24255951D87C427002ADEB5 /* DigitsOnlyViewController.swift in Sources */,
 				B24255691D8644FB002ADEB5 /* ViewController.swift in Sources */,
 				B24255671D8644FB002ADEB5 /* AppDelegate.swift in Sources */,
 			);
@@ -401,10 +406,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "RebeccaSiow-Lab1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wustl.RebeccaSiow-Lab1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "RebeccaSiow-Lab1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wustl.RebeccaSiow-Lab1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +495,7 @@
 				B242558D1D8644FC002ADEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B242558E1D8644FC002ADEB5 /* Build configuration list for PBXNativeTarget "RebeccaSiow-Lab1Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +504,7 @@
 				B24255901D8644FC002ADEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B24255911D8644FC002ADEB5 /* Build configuration list for PBXNativeTarget "RebeccaSiow-Lab1UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +513,7 @@
 				B24255931D8644FC002ADEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
