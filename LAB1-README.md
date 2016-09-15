@@ -1,4 +1,5 @@
 CSE438S
+Lab 1: Shopping Calculator
 Rebecca Siow
 
 Creative Portion:
