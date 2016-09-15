@@ -92,7 +92,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGZ-ge-ZIi">
-                                <rect key="frame" x="208.5" y="432" width="183" height="21"/>
+                                <rect key="frame" x="209" y="432" width="183" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="DNd-gD-yCl"/>
                                     <constraint firstAttribute="width" constant="183" id="fqs-CP-Kap"/>

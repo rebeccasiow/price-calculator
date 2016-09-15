@@ -142,21 +142,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
             view.backgroundColor = UIColor.greenColor()
         }
         else if numberColour == "."{
-            let array = Array(arrayLiteral: sender.text)
-            var decimalCount = 0
-            for character in array {
-                if character == "." {
-                    decimalCount += 1
-                }
-            }
-            
-            if decimalCount > 1 {
+            print("too many decimal points")
+        
+            //let array = Array(arrayLiteral: sender.text!)
+            let array = sender.text?.componentsSeparatedByString(".")
+            if (array?.count > 2){
+                print("more than 2 things in the array split by decimals")
                 print("too many decimal points")
-                self.presentViewController(alertController, animated: true, completion: nil)sou
+                self.presentViewController(alertController, animated: true, completion: nil)
                 sender.text = sender.text?.substringToIndex((sender.text?.endIndex.predecessor())!)
                 return
             }
-            
         }
         else {
             print("alphabet")
